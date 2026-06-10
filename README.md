@@ -107,22 +107,7 @@ Raw Data → Feature Engineering → Train/Test Split (80/20) → StandardScaler
 
 ---
 
-## 6. Visual Results
-
-### Feature Correlation
-![Correlation Heatmap](imgs/corr.png)
-
-### Feature Importance (GBR vs Random Forest)
-![Feature Importance](imgs/feat_imp.png)
-
-*Cement, Age, and WaterCementRatio are the dominant predictors across both tree-based models.*
-
-### Model Comparison
-![Model Comparison](imgs/comparision.png)
-
----
-
-## 7. Setup & Usage
+## 6. Setup & Usage
 
 ### Requirements
 ```
@@ -161,7 +146,7 @@ Concrete-compressive-strength/
 
 ---
 
-## 8. Project Structure
+## 7. Project Structure
 
 ```
 ConcreteCompressiveStrengthPrediction.ipynb
@@ -182,7 +167,7 @@ ConcreteCompressiveStrengthPrediction.ipynb
 
 ---
 
-## 9. References
+## 8. References
 
 1. I-Cheng Yeh, "Modeling of strength of high performance concrete using artificial neural networks," *Cement and Concrete Research*, Vol. 28, No. 12, pp. 1797–1808, 1998.
 2. UCI ML Repository: https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength
